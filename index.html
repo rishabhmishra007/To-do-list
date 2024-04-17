@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="png" href="assets/icon.png">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>TO-DO LIST <img src="assets/icon.png" alt="TDL"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="add your text...">
+                <button class="cssbuttons-io-button" onclick="addtask()">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="none" d="M0 0h24v24H0z"></path>
+                        <path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path>
+                    </svg>
+                    <span>Add</span>
+                </button>
+            </div>
+            <ul id="list-container">
+                <!-- <li class="checked">Task 1</li>
+                <li>Task 2</li>
+                <li>Task 3</li> -->
+            </ul>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 Rishabh Mishra. All rights reserved.☠️</p>
+        </div>
+    </div>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
